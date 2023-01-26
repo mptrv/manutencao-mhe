@@ -9,9 +9,35 @@
 % Indenta os primeiros parágrafos.
 \usepackage{indentfirst}
 
+% Para personalização das "seções" do documento.
+\usepackage{titlesec}
+
+% Unidades do SI.
+\usepackage{siunitx}
+
+% Frações bonitas.
+%   (Para os casos em que não é carregado automaticamente.)
+\usepackage{nicefrac}
+
 % Garante não ultrapassar a URL para além da borda do texto.
 %	(Acrescentar também 'hyphens' nas opções globais da "Classe de Documento".)
 \sloppy
+
+% Fração do total da altura do texto para alocação de flutuantes na parte inferior da página.
+\renewcommand{\bottomfraction}{0.5}
+
+% Espaço vertical geral (\espv) e para tabelas (\strutp) - em tabelas, \baselineskip = 0.
+% Nota: há o comando pré-definido \strut.
+%   Ref.: http://en.wikibooks.org/wiki/LaTeX/Rules_and_Struts
+\newlength{\tabbaselineskip}
+\setlength{\tabbaselineskip}{\baselineskip}
+\newcommand{\espv}[1][4]{\rule[-.3\baselineskip]{0pt}{#1\baselineskip}}
+%\newcommand{\espv}[1][4]{\rule[#1ex]{0pt}{0pt}} % Obsoleto.
+\newcommand{\strutp}[1][4]{\rule[-.3\tabbaselineskip]{0pt}{#1\tabbaselineskip}}
+%\newcommand{\strutp}[1]{\rule[-0.3\baselineskip]{0pt}{#1}} % Obsoleto.
+
+% Forma alternativa para alterar o espaçamento entre linhas de tabela.
+\newcommand{\esptab}[1][1.5]{\renewcommand\arraystretch{#1}}
 
 % Cria uma quebra de linha após o título do parágrafo.
 % 	Ref.: https://latex.org/forum/viewtopic.php?t=1383
@@ -22,6 +48,9 @@
       {.5\baselineskip}%
       {\normalfont\normalsize\bfseries}}
 \makeatother
+
+% Personalização para unidades SI (por siunitx}.
+\sisetup{copy-decimal-marker,input-decimal-markers={,.kM},quotient-mode=fraction,fraction-function=\nicefrac}
 \end_preamble
 \options hyphens
 \use_default_options true
@@ -109,6 +138,31 @@
 \begin_body
 
 \begin_layout Standard
+\begin_inset Note Comment
+status open
+
+\begin_layout Plain Layout
+
+\series bold
+\emph on
+\color blue
+=== Macros ========================
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+\begin_inset FormulaMacro
+\newcommand{\six}[2]{\SI{#1}{#2}}
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
 \begin_inset ERT
 status open
 
@@ -131,6 +185,23 @@ pageref{sumario}
 qquad Ir para Índice Remissivo:~
 \backslash
 pageref{indice-remissivo}}}
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+\begin_inset Note Comment
+status open
+
+\begin_layout Plain Layout
+
+\series bold
+\emph on
+\color blue
+=== Fim das Macros ========================
 \end_layout
 
 \end_inset
@@ -338,6 +409,642 @@ LatexCommand tableofcontents
 
 \begin_layout Part
 Mecânica de Automóveis
+\end_layout
+
+\begin_layout Chapter
+Comum a Todos os Veículos
+\begin_inset CommandInset label
+LatexCommand label
+name "chap:Comum-a-Todos-Veículos"
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Section
+Manutenção Preventiva
+\begin_inset CommandInset label
+LatexCommand label
+name "sec:Manutenção-Preventiva-Comum"
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+Realizar as seguintes inspeções ou trocas a cada quilometragem ou tempo
+ informado na tabela.
+ Nos capítulos adiante podem ser encontrados itens específicos para cada
+ modelo de veículo.
+\end_layout
+
+\begin_layout Standard
+\begin_inset Tabular
+<lyxtabular version="3" rows="2" columns="4">
+<features tabularvalignment="middle">
+<column alignment="center" valignment="top">
+<column alignment="center" valignment="top">
+<column alignment="center" valignment="top">
+<column alignment="center" valignment="top">
+<row>
+<cell alignment="center" valignment="top" topline="true" leftline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+
+\series bold
+Item
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" topline="true" leftline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+
+\series bold
+km
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" topline="true" leftline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+
+\series bold
+Tempo
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" topline="true" leftline="true" rightline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+
+\series bold
+Descrição
+\end_layout
+
+\end_inset
+</cell>
+</row>
+<row>
+<cell alignment="center" valignment="top" topline="true" bottomline="true" leftline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+Interruptores térmicos
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" topline="true" bottomline="true" leftline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+\begin_inset Formula $\num{30000}$
+\end_inset
+
+
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" topline="true" bottomline="true" leftline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+—
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" topline="true" bottomline="true" leftline="true" rightline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+Inspecionar.
+\end_layout
+
+\end_inset
+</cell>
+</row>
+</lyxtabular>
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Chapter
+Fiat Pálio ED 1997
+\end_layout
+
+\begin_layout Section
+Sistema de Arrefecimento
+\end_layout
+
+\begin_layout Subsection
+Interruptor Térmico do Radiador (Cebolão)
+\end_layout
+
+\begin_layout Description
+Fabricante: Iguaçu
+\end_layout
+
+\begin_layout Description
+Site: 
+\begin_inset Flex URL
+status open
+
+\begin_layout Plain Layout
+
+https://iguacu.ind.br/
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Description
+Código: 301.0426
+\end_layout
+
+\begin_layout Description
+Temperatura: 
+\begin_inset Formula $\six{92}{\celsius}$
+\end_inset
+
+/
+\begin_inset Formula $\six{87}{\celsius}$
+\end_inset
+
+
+\end_layout
+
+\begin_layout Description
+\begin_inset VSpace smallskip
+\end_inset
+
+
+\end_layout
+
+\begin_layout Description
+Fabricante: MTE-Thomson
+\end_layout
+
+\begin_layout Description
+Site: 
+\begin_inset Flex URL
+status open
+
+\begin_layout Plain Layout
+
+https://www.mte-thomson.com.br/
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Description
+Código: 726
+\end_layout
+
+\begin_layout Description
+Temperatura: 
+\begin_inset Formula $\six{92}{\celsius}$
+\end_inset
+
+/
+\begin_inset Formula $\six{87}{\celsius}$
+\end_inset
+
+
+\end_layout
+
+\begin_layout Description
+Catálogo: 
+\family typewriter
+Catalogue-Temperatura-2018.pdf
+\end_layout
+
+\begin_layout Subsection
+Líquido do Sistema de Arrefecimento
+\end_layout
+
+\begin_layout Description
+Capacidade
+\begin_inset space ~
+\end_inset
+
+total
+\begin_inset space ~
+\end_inset
+
+do
+\begin_inset space ~
+\end_inset
+
+sistema: 
+\begin_inset Formula $\six{5,8}{\l}$
+\end_inset
+
+
+\end_layout
+
+\begin_layout Subsubsection*
+
+\bar under
+Dados do manual
+\end_layout
+
+\begin_layout Description
+Fabricante: Paraflu
+\end_layout
+
+\begin_layout Description
+Site: 
+\begin_inset Flex URL
+status open
+
+\begin_layout Plain Layout
+
+https://paraflu.ind.br/produtos/
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Description
+Aditivo: Paraflu ECOTECH, à base de glicol monoetilênico inibido (segundo
+ manual) 
+\end_layout
+
+\begin_layout Description
+Diluição: 30% aditivo / 70% água pura (segundo manual)
+\end_layout
+
+\begin_layout Subsubsection*
+
+\bar under
+Dados de Fabricante
+\end_layout
+
+\begin_layout Description
+Fabricante: Paraflu
+\end_layout
+
+\begin_layout Description
+Site: 
+\begin_inset Flex URL
+status open
+
+\begin_layout Plain Layout
+
+https://paraflu.ind.br/produtos/
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Description
+Aditivo: 10-3010/10-3011/10-3012 – PARAFLU MONTADORA ORGÂNICO CONCENTRADO
+\end_layout
+
+\begin_layout Description
+Cor: rosa
+\end_layout
+
+\begin_layout Description
+Diluição: 40% aditivo/60% água desmineralizada (segundo fabricante do fluido)
+\end_layout
+
+\begin_layout Subsubsection*
+
+\bar under
+A Comprar
+\end_layout
+
+\begin_layout Itemize
+\begin_inset Formula $\six 3{\l}$
+\end_inset
+
+ de aditivo (usar 
+\begin_inset Formula $\six{2,5}{\l}$
+\end_inset
+
+)
+\end_layout
+
+\begin_layout Itemize
+\begin_inset Formula $\six 4{\l}$
+\end_inset
+
+ de água desmineralizada (usar 
+\begin_inset Formula $\six{3,3}{\l}$
+\end_inset
+
+)
+\end_layout
+
+\begin_layout Quote
+
+\emph on
+Nota:
+\emph default
+ com o restante, preparar 1,2 l (0,5 l de aditivo e 0,7 l de água desmineralizad
+a) para reposição.
+\end_layout
+
+\begin_layout Subsection
+Resolução de Problemas
+\end_layout
+
+\begin_layout Subsubsection
+Superaquecimento
+\end_layout
+
+\begin_layout Paragraph*
+A Testar
+\end_layout
+
+\begin_layout Itemize
+Mangueira fina do reservatório de expansão: está obstruída?
+\end_layout
+
+\begin_deeper
+\begin_layout Standard
+Ela sai da carcaça da válvula termostática e vai para o reservatório de
+ expansão.
+ 
+\end_layout
+
+\end_deeper
+\begin_layout Itemize
+O óleo está no nível correto?
+\end_layout
+
+\begin_layout Itemize
+A bomba d'água está funcionando adequadamente?
+\end_layout
+
+\begin_layout Itemize
+Tentar abrir o sangrador do radiador também.
+\end_layout
+
+\begin_layout Paragraph*
+Passos
+\end_layout
+
+\begin_layout Standard
+Conforme a fonte:
+\end_layout
+
+\begin_layout Standard
+\begin_inset Flex URL
+status open
+
+\begin_layout Plain Layout
+
+https://forum.oficinabrasil.com.br/d/2-reparador-para-reparador/palio-97-1-5-aquece
+ndo-muito-154428.html
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Labeling
+\labelwidthstring 00.00.0000
+1° Você deve fazer um comparativo de temperatura com aparelho especifico
+ do seu mostrador (indicador) do quadro de instrumentos – assim poderá analisar
+ o quadro.
+\end_layout
+
+\begin_layout Labeling
+\labelwidthstring 00.00.0000
+2° O radiador do veículo está limpo? Faça uma limpeza do sistema.
+ Amassados e barro nas aletas do radiador podem causar superaquecimento.
+\end_layout
+
+\begin_layout Labeling
+\labelwidthstring 00.00.0000
+3° Verificar se a bomba d'água está trabalhando com eficiência.
+\end_layout
+
+\begin_layout Labeling
+\labelwidthstring 00.00.0000
+4° Desgastes do motor podem causar uma pequena elevação de temperatura.
+\end_layout
+
+\begin_layout Labeling
+\labelwidthstring 00.00.0000
+5° Sensor de temperatura com defeito de fabricação caso tenha já substituído
+ por novo.
+\end_layout
+
+\begin_layout Labeling
+\labelwidthstring 00.00.0000
+6° Mangueira fina do reservatório de expansão parcial ou totalmente obstruída.
+\end_layout
+
+\begin_layout Paragraph*
+Vídeos:
+\end_layout
+
+\begin_layout Labeling
+\labelwidthstring 00.00.0000
+\begin_inset Flex URL
+status open
+
+\begin_layout Plain Layout
+
+https://www.youtube.com/watch?v=L1I6f-OPJpY
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Labeling
+\labelwidthstring 00.00.0000
+\begin_inset Flex URL
+status open
+
+\begin_layout Plain Layout
+
+https://www.youtube.com/watch?v=WWOVI6LWXu0
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Labeling
+\labelwidthstring 00.00.0000
+\begin_inset Flex URL
+status open
+
+\begin_layout Plain Layout
+
+https://www.youtube.com/watch?v=KXJXByzVEWY
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Section
+Sistema de Alimentação de Combustível
+\end_layout
+
+\begin_layout Section
+Manutenção Preventiva
+\end_layout
+
+\begin_layout Standard
+Realizar as seguintes inspeções ou trocas a cada quilometragem ou tempo
+ informado na tabela.
+ Na ausência de algum item específico, consultar a seção 
+\begin_inset CommandInset ref
+LatexCommand nameref
+reference "sec:Manutenção-Preventiva-Comum"
+plural "false"
+caps "false"
+noprefix "false"
+
+\end_inset
+
+ do capítulo 
+\begin_inset CommandInset ref
+LatexCommand nameref
+reference "chap:Comum-a-Todos-Veículos"
+plural "false"
+caps "false"
+noprefix "false"
+
+\end_inset
+
+.
+\end_layout
+
+\begin_layout Chapter
+Volkswagen Fox City 2006
+\end_layout
+
+\begin_layout Section
+Manutenção Preventiva
+\end_layout
+
+\begin_layout Standard
+Realizar as seguintes inspeções ou trocas a cada quilometragem ou tempo
+ informado na tabela.
+ Na ausência de algum item específico, consultar a seção 
+\begin_inset CommandInset ref
+LatexCommand nameref
+reference "sec:Manutenção-Preventiva-Comum"
+plural "false"
+caps "false"
+noprefix "false"
+
+\end_inset
+
+ do capítulo 
+\begin_inset CommandInset ref
+LatexCommand nameref
+reference "chap:Comum-a-Todos-Veículos"
+plural "false"
+caps "false"
+noprefix "false"
+
+\end_inset
+
+.
+\end_layout
+
+\begin_layout Chapter
+Volkswagen Gol 1000 1995
+\end_layout
+
+\begin_layout Section
+Manutenção Preventiva
+\end_layout
+
+\begin_layout Standard
+Realizar as seguintes inspeções ou trocas a cada quilometragem ou tempo
+ informado na tabela.
+ Na ausência de algum item específico, consultar a seção 
+\begin_inset CommandInset ref
+LatexCommand nameref
+reference "sec:Manutenção-Preventiva-Comum"
+plural "false"
+caps "false"
+noprefix "false"
+
+\end_inset
+
+ do capítulo 
+\begin_inset CommandInset ref
+LatexCommand nameref
+reference "chap:Comum-a-Todos-Veículos"
+plural "false"
+caps "false"
+noprefix "false"
+
+\end_inset
+
+.
+\end_layout
+
+\begin_layout Chapter
+Hyundai HB20 1.0M Comfor 2015
+\end_layout
+
+\begin_layout Section
+Manutenção Preventiva
+\end_layout
+
+\begin_layout Standard
+Realizar as seguintes inspeções ou trocas a cada quilometragem ou tempo
+ informado na tabela.
+ Na ausência de algum item específico, consultar a seção 
+\begin_inset CommandInset ref
+LatexCommand nameref
+reference "sec:Manutenção-Preventiva-Comum"
+plural "false"
+caps "false"
+noprefix "false"
+
+\end_inset
+
+ do capítulo 
+\begin_inset CommandInset ref
+LatexCommand nameref
+reference "chap:Comum-a-Todos-Veículos"
+plural "false"
+caps "false"
+noprefix "false"
+
+\end_inset
+
+.
 \end_layout
 
 \begin_layout Part
