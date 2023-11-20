@@ -442,7 +442,7 @@ Realizar as seguintes inspeções ou trocas a cada quilometragem ou tempo
 
 \begin_layout Standard
 \begin_inset Tabular
-<lyxtabular version="3" rows="2" columns="4">
+<lyxtabular version="3" rows="3" columns="4">
 <features tabularvalignment="middle">
 <column alignment="center" valignment="top">
 <column alignment="center" valignment="top">
@@ -495,7 +495,7 @@ Descrição
 </cell>
 </row>
 <row>
-<cell alignment="center" valignment="top" topline="true" bottomline="true" leftline="true" usebox="none">
+<cell alignment="center" valignment="top" topline="true" leftline="true" usebox="none">
 \begin_inset Text
 
 \begin_layout Plain Layout
@@ -504,11 +504,52 @@ Interruptores térmicos
 
 \end_inset
 </cell>
-<cell alignment="center" valignment="top" topline="true" bottomline="true" leftline="true" usebox="none">
+<cell alignment="center" valignment="top" topline="true" leftline="true" usebox="none">
 \begin_inset Text
 
 \begin_layout Plain Layout
 \begin_inset Formula $\num{30000}$
+\end_inset
+
+
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" topline="true" leftline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+—
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" topline="true" leftline="true" rightline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+Inspecionar.
+\end_layout
+
+\end_inset
+</cell>
+</row>
+<row>
+<cell alignment="center" valignment="top" topline="true" bottomline="true" leftline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+Interruptor do freio
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" topline="true" bottomline="true" leftline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+\begin_inset Formula $\num{40000}$
 \end_inset
 
 
@@ -1401,6 +1442,609 @@ noprefix "false"
 .
 \end_layout
 
+\begin_layout Section
+Manutenções
+\end_layout
+
+\begin_layout Subsection
+Freio
+\end_layout
+
+\begin_layout Subsubsection
+Interruptor do Freio
+\end_layout
+
+\begin_layout Description
+Localização: no pedal do freio.
+\end_layout
+
+\begin_layout Description
+Dica: para facilitar a remoção, retirar o trecho de duto de ar logo atrás
+ ao interruptor.
+\end_layout
+
+\begin_layout Standard
+\align center
+\begin_inset Float table
+placement bph
+wide false
+sideways false
+status open
+
+\begin_layout Plain Layout
+\align center
+\begin_inset Tabular
+<lyxtabular version="3" rows="5" columns="5">
+<features tabularvalignment="middle">
+<column alignment="center" valignment="top">
+<column alignment="center" valignment="top">
+<column alignment="center" valignment="top">
+<column alignment="center" valignment="top">
+<column alignment="center" valignment="top">
+<row>
+<cell alignment="center" valignment="top" topline="true" bottomline="true" leftline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+
+\emph on
+Terminal interruptor
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" topline="true" bottomline="true" leftline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+
+\emph on
+Terminal UC
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" topline="true" bottomline="true" leftline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+
+\emph on
+Cor fio
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" topline="true" bottomline="true" leftline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+
+\emph on
+Pedal
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" topline="true" bottomline="true" leftline="true" rightline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+
+\emph on
+Tensão (
+\begin_inset Formula $\si{\V}$
+\end_inset
+
+)
+\end_layout
+
+\end_inset
+</cell>
+</row>
+<row>
+<cell multirow="3" alignment="center" valignment="middle" topline="true" leftline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+4
+\end_layout
+
+\end_inset
+</cell>
+<cell multirow="3" alignment="center" valignment="middle" topline="true" leftline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+35
+\end_layout
+
+\end_inset
+</cell>
+<cell multirow="3" alignment="center" valignment="middle" topline="true" leftline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+PR/VM
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" topline="true" leftline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+Pressionado
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" topline="true" leftline="true" rightline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+\begin_inset Formula $\num{12,3}$
+\end_inset
+
+
+\end_layout
+
+\end_inset
+</cell>
+</row>
+<row>
+<cell multirow="4" alignment="center" valignment="top" topline="true" leftline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+
+\end_layout
+
+\end_inset
+</cell>
+<cell multirow="4" alignment="center" valignment="top" topline="true" leftline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+
+\end_layout
+
+\end_inset
+</cell>
+<cell multirow="4" alignment="center" valignment="top" topline="true" leftline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" topline="true" leftline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+Solto
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" topline="true" leftline="true" rightline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+\begin_inset Formula $\num{0}$
+\end_inset
+
+
+\end_layout
+
+\end_inset
+</cell>
+</row>
+<row>
+<cell multirow="3" alignment="center" valignment="middle" topline="true" bottomline="true" leftline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+3
+\end_layout
+
+\end_inset
+</cell>
+<cell multirow="3" alignment="center" valignment="middle" topline="true" bottomline="true" leftline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+44
+\end_layout
+
+\end_inset
+</cell>
+<cell multirow="3" alignment="center" valignment="middle" topline="true" bottomline="true" leftline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+PR/VD
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" topline="true" leftline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+Pressionado
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" topline="true" leftline="true" rightline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+\begin_inset Formula $\num{0}$
+\end_inset
+
+
+\end_layout
+
+\end_inset
+</cell>
+</row>
+<row>
+<cell multirow="4" alignment="center" valignment="top" topline="true" bottomline="true" leftline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+
+\end_layout
+
+\end_inset
+</cell>
+<cell multirow="4" alignment="center" valignment="top" topline="true" bottomline="true" leftline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+
+\end_layout
+
+\end_inset
+</cell>
+<cell multirow="4" alignment="center" valignment="top" topline="true" bottomline="true" leftline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" topline="true" bottomline="true" leftline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+Solto
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" topline="true" bottomline="true" leftline="true" rightline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+\begin_inset Formula $\num{12,3}$
+\end_inset
+
+
+\end_layout
+
+\end_inset
+</cell>
+</row>
+</lyxtabular>
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Plain Layout
+\begin_inset Caption Standard
+
+\begin_layout Plain Layout
+Tensões para ensaio do interruptor do freio.
+ O teste deve ser feito com a ignição ligada.
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+\align center
+\begin_inset Float figure
+placement bph
+wide false
+sideways false
+status open
+
+\begin_layout Plain Layout
+\align center
+\begin_inset Graphics
+	filename /home/mpt/Documentos/Projetos/manutencao-mhe/imagens/mecanica/fox-esquema-eletrico-luz-de-freio.jpg
+	lyxscale 50
+	width 100text%
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Plain Layout
+\begin_inset Caption Standard
+
+\begin_layout Plain Layout
+Esquema elétrico do interruptor do freio (interruptor duplo do freio).
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Plain Layout
+
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Subsection
+Sistema de Arrefecimento
+\end_layout
+
+\begin_layout Subsubsection
+Problemas e Possíveis Causas
+\end_layout
+
+\begin_layout Standard
+\begin_inset Float table
+wide false
+sideways false
+status open
+
+\begin_layout Plain Layout
+\begin_inset Tabular
+<lyxtabular version="3" rows="4" columns="3">
+<features tabularvalignment="middle">
+<column alignment="left" valignment="top" width="3cm">
+<column alignment="center" valignment="top" width="5cm">
+<column alignment="center" valignment="top" width="5cm">
+<row>
+<cell alignment="left" valignment="top" topline="true" bottomline="true" leftline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+
+\emph on
+Problemas
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" topline="true" bottomline="true" leftline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+
+\emph on
+Possíveis causas
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" topline="true" bottomline="true" leftline="true" rightline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+
+\emph on
+Solução
+\end_layout
+
+\end_inset
+</cell>
+</row>
+<row>
+<cell alignment="left" valignment="top" topline="true" leftline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+Ventoinha ruidosa
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" topline="true" leftline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+Rolamento ruim
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" topline="true" leftline="true" rightline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+Trocar a ventoinha
+\end_layout
+
+\end_inset
+</cell>
+</row>
+<row>
+<cell alignment="left" valignment="top" topline="true" leftline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+Ventoinha não desliga
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" topline="true" leftline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+Excesso de atrito devido a rolamento ruim, ocasionando fluxo de vento insuficien
+te para a refrigeração
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" topline="true" leftline="true" rightline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+Trocar a ventoinho
+\end_layout
+
+\end_inset
+</cell>
+</row>
+<row>
+<cell alignment="center" valignment="top" topline="true" bottomline="true" leftline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+Vazamentos nas junções do cavalete da válvula termostática e do tubo de
+ água
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" topline="true" bottomline="true" leftline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+Guarnições ruins ou peças de má qualidade
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" topline="true" bottomline="true" leftline="true" rightline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+Trocar o conjunto ou as guarnições por peças de boa qualidade.
+\end_layout
+
+\end_inset
+</cell>
+</row>
+</lyxtabular>
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Plain Layout
+\begin_inset Caption Standard
+
+\begin_layout Plain Layout
+Problemas, possíveis causas e soluções relacionados ao sistema de arrefecimento.
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Subsubsection
+Cavalete da Válvula Termostática
+\end_layout
+
+\begin_layout Description
+Sequência
+\begin_inset space ~
+\end_inset
+
+de
+\begin_inset space ~
+\end_inset
+
+instalação:
+\end_layout
+
+\begin_deeper
+\begin_layout Enumerate
+limpar com uma lixa d'água grão 220 (com água) o encaixe do tubo de água
+ e a abertura do corpo do motor onde o cavalete será fixado;
+\end_layout
+
+\begin_layout Enumerate
+posicionar as guarnições nas peças;
+\end_layout
+
+\begin_layout Enumerate
+instalar o tubo de água completamente;
+\end_layout
+
+\begin_layout Enumerate
+encaixar o cavalete no tubo e rotacionar o tubo até que a base da válvula
+ fique paralela ao corpo do motor na posição dos alinhamentos dos parafusos;
+\end_layout
+
+\begin_layout Enumerate
+realizar o aperto dos parafusos de fixação do cavalete de forma gradativa
+ e homogênea, a fim de evitar empenamentos durante o aperto;
+\end_layout
+
+\begin_layout Enumerate
+encaixar e fixar as mangueiras;
+\end_layout
+
+\begin_layout Enumerate
+encaixar e fixar o sensor de temperatura.
+\end_layout
+
+\end_deeper
+\begin_layout Description
+Dica
+\begin_inset space ~
+\end_inset
+
+1: com o cavalete e guarnições de borracha de boa qualidade, as peças encaixam-s
+e com pressão e não há necessidade de qualquer selante.
+\end_layout
+
+\begin_layout Description
+Dica
+\begin_inset space ~
+\end_inset
+
+2: Sugere-se sempre evitar o uso de selantes.
+ Ao realizar a instalação conforme o procedimento, os selantes tornam-se
+ desnecessários.
+\end_layout
+
 \begin_layout Chapter
 Volkswagen Gol 1000 1995
 \end_layout
@@ -1475,6 +2119,334 @@ Manutenção Residencial –Alvenaria
 
 \begin_layout Part
 Manutenção Residencial – Pintura
+\end_layout
+
+\begin_layout Chapter
+Madeiras e Metais
+\end_layout
+
+\begin_layout Section
+Orientações Gerais
+\end_layout
+
+\begin_layout Standard
+Conforme orientações no sítio da Lukscolor, com base na Norma da ABNT NBR
+ 13245:
+\end_layout
+
+\begin_layout Itemize
+Antes de pintar, prepare adequadamente a superfície.
+ É importante que esteja limpa, seca, sem partes soltas de reboco ou de
+ pintura velha.
+ Corrija as imperfeições e elimine a umidade, mofo, pó, manchas de gordura
+ e outros contaminantes que podem comprometer o resultado da pintura.
+\end_layout
+
+\begin_layout Itemize
+Veja nos tópicos seguintes como proceder em várias situações para garantir
+ um acabamento perfeito e a durabilidade do produto aplicado.
+\end_layout
+
+\begin_layout Itemize
+REPINTURA: Observe o estado geral da pintura antiga.
+ Estando em boas condições, lixe, remova o pó e aplique a tinta de acabamento;
+ 
+\end_layout
+
+\begin_layout Itemize
+POEIRA E PÓ DE LIXAMENTO: Remova com escova de pêlos.
+ Em madeiras, limpe com pano limpo umedecido com água e deixe secar; em
+ metais, limpe com pano limpo umedecido com NOVA-RAZ INNOVATION ou NOVA-RAZ
+ 260 LUKSNOVA;
+\end_layout
+
+\begin_layout Itemize
+SUPERFÍCIES BRILHANTES: Lixe até a perda total do brilho e remova o pó de
+ lixamento;
+\end_layout
+
+\begin_layout Itemize
+MANCHAS GORDUROSAS E GRAXAS: Lave com água e detergente, enxágue e deixe
+ secar, ou utilize um pano limpo umedecido com NOVA-RAZ INNOVATION ou NOVA-RAZ
+ 260 LUKSNOVA;
+\end_layout
+
+\begin_layout Itemize
+MOFO: Limpe com água sanitária e deixe agir por alguns minutos.
+ Enxágue e deixe secar;
+\end_layout
+
+\begin_layout Itemize
+UMIDADE: Não inicie a pintura sobre superfícies com problemas de umidade.
+ Identifique a causa e trate adequadamente;
+\end_layout
+
+\begin_layout Itemize
+MADEIRA NOVA: Lixe até eliminar as farpas e remova o pó.
+ Aplique uma demão de FUNDO UNIVERSAL BASE ÁGUA LUKSCOLOR.
+ Lixe, remova o pó e aplique o ESMALTE PREMIUM PLUS LUKSCOLOR ou ESMALTE
+ PREMIUM PLUS BASE ÁGUA LUKSCOLOR;
+\end_layout
+
+\begin_layout Itemize
+MADEIRA, IMPERFEIÇÕES RASAS: Aplique MASSA PARA MADEIRA LUKSCOLOR, lixe
+ e remova o pó;
+\end_layout
+
+\begin_layout Itemize
+METAIS FERROSOS NOVOS: Lixe e elimine o pó.
+ Em seguida, aplique 2 demãos de FUNDO UNIVERSAL BASE ÁGUA LUKSCOLOR.
+ Lixe, remova o pó e aplique o ESMALTE PREMIUM PLUS LUKSCOLOR ou ESMALTE
+ BASE ÁGUA LUKSCOLOR;
+\end_layout
+
+\begin_layout Itemize
+METAIS ENFERRUJADOS: Lixe para eliminar completamente a ferrugem e proceda
+ como em ”Metais Ferrosos Novos”;
+\end_layout
+
+\begin_layout Itemize
+AÇO GALVANIZADO E ALUMÍNIO: Lixe e elimine o pó.
+ Aplique uma demão de FUNDO UNIVERSAL BASE ÁGUA LUKSCOLOR ou LUKSGALV LUKSCOLOR.
+ Lixe, remova o pó e aplique o ESMALTE PREMIUM PLUS LUKSCOLOR ou ESMALTE
+ BASE ÁGUA LUKSCOLOR.
+ 
+\end_layout
+
+\begin_layout Itemize
+Em todos os casos, leia atentamente todas as recomendações das embalagens
+ dos produtos utilizados, principalmente o tempo de secagem entre demãos.
+\end_layout
+
+\begin_layout Standard
+As orientações são semelhantes para produtos de outros fabricantes também.
+\end_layout
+
+\begin_layout Section*
+Fonte:
+\end_layout
+
+\begin_layout Standard
+\begin_inset Flex URL
+status open
+
+\begin_layout Plain Layout
+
+file:///home/mpt/Documentos/Consultas/0250-Manuais/Produtos%20para%20Pintura/Fun
+do%20Universal%20Lukscolor.html
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Section
+Orientações Específicas
+\end_layout
+
+\begin_layout Subsection
+Metais Enferrujados
+\end_layout
+
+\begin_layout Standard
+Sequência:
+\end_layout
+
+\begin_layout Enumerate
+Tirar o excesso de ferrugem com espátula, escova de aço ou lixamento.
+\end_layout
+
+\begin_layout Enumerate
+Aplicar 1 ou 2 demãos de 
+\series bold
+Ferrox
+\series default
+, conforme a necessidade.
+\end_layout
+
+\begin_deeper
+\begin_layout Itemize
+Aguardar 8 horas.
+\end_layout
+
+\begin_layout Itemize
+Não diluir.
+\end_layout
+
+\end_deeper
+\begin_layout Enumerate
+Novamente, lixar ou escovar, mas de forma superficial.
+ Se houver partes previamente pintadas atingidas pelo Ferrox, lavá-las e
+ secar bem todo o conjunto.
+\end_layout
+
+\begin_layout Enumerate
+Aplicar 1 ou 2 demãos do 
+\series bold
+Fundo Universal Lukscolor Base Água
+\series default
+.
+\end_layout
+
+\begin_deeper
+\begin_layout Itemize
+Diluição para superfícies não seladas: 10:3 a 10:4, primeira demão.
+\end_layout
+
+\begin_layout Itemize
+Diluição para pincel, trincha ou rolo de lã: 10:1 a 10:2, com água, todas
+ as demãos.
+\end_layout
+
+\begin_layout Itemize
+Diluição para pistola: 10:3 a 10:4, com água, todas as demãos.
+\end_layout
+
+\begin_layout Itemize
+Secagem: 30 min\SpecialChar endofsentence
+ ao toque, 3 horas entre demãos e 4 horas final.
+\end_layout
+
+\end_deeper
+\begin_layout Enumerate
+Aplicar 2 demãos da tinta 
+\series bold
+Metalatex Sherwin Williams Eco Esmalte Base Água
+\series default
+.
+\end_layout
+
+\begin_deeper
+\begin_layout Itemize
+Diluição para pincel, rolo de espuma ou rolo de lã:
+\end_layout
+
+\begin_deeper
+\begin_layout Itemize
+primeira demão: 10:2 a 10:3, com água;
+\end_layout
+
+\begin_layout Itemize
+demais demãos: 10:1 a 10:2, com água.
+\end_layout
+
+\end_deeper
+\begin_layout Itemize
+Secagem: 30 min\SpecialChar endofsentence
+ ao toque, 2 a 4 horas entre demãos e 4 horas final.
+\end_layout
+
+\end_deeper
+\begin_layout Subsubsection
+Detalhes para o Uso do Ferrox
+\end_layout
+
+\begin_layout Paragraph
+Aplicação
+\end_layout
+
+\begin_layout Enumerate
+Antes de receber FERROX® a superfície deverá ser tratada com lixas ou escovas
+ de aço para remoção da ferrugem grosseira ou mal aderida.
+ Óleos ou materiais gordurosos deverão ser removidos com solventes.
+ Vestígios de pinturas anteriores se mal aderidos deverão ser eliminados.
+\end_layout
+
+\begin_layout Enumerate
+Aplicar FERROX® em camada fina por meio de pincel, não aplicar com nenhum
+ tipo de nebulizador.
+ Em poucos minutos nota-se que tanto o metal quanto os restos de ferrugem
+ adquirem uma coloração cinza-escuro, características dos fosfatos.
+\end_layout
+
+\begin_layout Enumerate
+Se ao cabo de 4 a 8 horas ainda persistir em alguns pontos a coloração avermelha
+da da ferrugem é sinal de que a oxidação era muito profunda, tomando-se
+ necessária uma segunda aplicação.
+\end_layout
+
+\begin_deeper
+\begin_layout Standard
+Vestígios esbranquiçados são típicos do processo, não se constituindo em
+ problema técnico.
+\end_layout
+
+\end_deeper
+\begin_layout Enumerate
+Após cerca de 8 horas, fazer uma limpeza sumária na superfície usando-se
+ lixa, escova ou lã de aço.
+ Caso haja partes pintadas é necessário lavar antes com água, esperar secar
+ totalmente e escolher o sistema protetivo (Fundo e/ou Acabamento).
+\end_layout
+
+\begin_layout Enumerate
+Lembrar que o tratamento com FERROX® não é uma proteção definitiva e que
+ o intervalo de tempo entre sua aplicação e a aplicação da proteção final
+ deverá ser o mais breve possível.
+\end_layout
+
+\begin_layout Paragraph
+EPIs
+\end_layout
+
+\begin_layout Itemize
+Óculos de segurança contra esguichos ou respingos de líquidos.
+\end_layout
+
+\begin_layout Itemize
+Luvas de borracha Látex/Neoprene ou outros resistentes a álcool etílico
+ e a ácidos.
+\end_layout
+
+\begin_layout Itemize
+Máscara respiratória com filtro para vapores orgânicos.
+\end_layout
+
+\begin_layout Paragraph*
+Fonte:
+\end_layout
+
+\begin_layout Description
+\begin_inset Flex URL
+status collapsed
+
+\begin_layout Plain Layout
+
+https://reprotecnica.com.br
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Description
+\begin_inset Flex URL
+status collapsed
+
+\begin_layout Plain Layout
+
+https://2task.com.br/resources/repositorio/RevisoesSite/150374_545088.pdf
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Description
+\begin_inset Flex URL
+status collapsed
+
+\begin_layout Plain Layout
+
+https://2task.com.br/resources/repositorio/RevisoesSite/150376_570705.pdf
+\end_layout
+
+\end_inset
+
+
 \end_layout
 
 \begin_layout Part
