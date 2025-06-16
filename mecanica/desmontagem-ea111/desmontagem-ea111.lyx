@@ -1,0 +1,1399 @@
+#LyX 2.3 created this file. For more info see http://www.lyx.org/
+\lyxformat 544
+\begin_document
+\begin_header
+\save_transient_properties true
+\origin unavailable
+\textclass article
+\use_default_options true
+\maintain_unincluded_children false
+\language brazilian
+\language_package default
+\inputencoding auto
+\fontencoding global
+\font_roman "default" "default"
+\font_sans "default" "default"
+\font_typewriter "default" "default"
+\font_math "auto" "auto"
+\font_default_family default
+\use_non_tex_fonts false
+\font_sc false
+\font_osf false
+\font_sf_scale 100 100
+\font_tt_scale 100 100
+\use_microtype false
+\use_dash_ligatures true
+\graphics default
+\default_output_format default
+\output_sync 0
+\bibtex_command default
+\index_command default
+\paperfontsize 12
+\spacing onehalf
+\use_hyperref false
+\papersize a4paper
+\use_geometry true
+\use_package amsmath 1
+\use_package amssymb 1
+\use_package cancel 1
+\use_package esint 1
+\use_package mathdots 1
+\use_package mathtools 1
+\use_package mhchem 1
+\use_package stackrel 1
+\use_package stmaryrd 1
+\use_package undertilde 1
+\cite_engine basic
+\cite_engine_type default
+\biblio_style plain
+\use_bibtopic false
+\use_indices false
+\paperorientation portrait
+\suppress_date false
+\justification true
+\use_refstyle 1
+\use_minted 0
+\index Index
+\shortcut idx
+\color #008000
+\end_index
+\leftmargin 1.5cm
+\rightmargin 1.5cm
+\columnsep 0.75cm
+\secnumdepth 3
+\tocdepth 3
+\paragraph_separation indent
+\paragraph_indentation default
+\is_math_indent 0
+\math_numbering_side default
+\quotes_style english
+\dynamic_quotes 0
+\papercolumns 2
+\papersides 1
+\paperpagestyle default
+\tracking_changes false
+\output_changes false
+\html_math_output 0
+\html_css_as_file 0
+\html_be_strict false
+\end_header
+
+\begin_body
+
+\begin_layout Title
+Desmontagem do Motor EA111
+\end_layout
+
+\begin_layout Author
+Revista 
+\begin_inset Quotes eld
+\end_inset
+
+O Mecânico
+\begin_inset Quotes erd
+\end_inset
+
+
+\begin_inset Newline newline
+\end_inset
+
+
+\begin_inset Flex URL
+status collapsed
+
+\begin_layout Plain Layout
+
+https://omecanico.com.br/desmontagem-do-1-6-power-da-vw/
+\end_layout
+
+\end_inset
+
+
+\begin_inset Newline newline
+\end_inset
+
+
+\size small
+(Acessado em 16.06.2025)
+\begin_inset Newline newline
+\end_inset
+
+
+\size normal
+Diagramação adaptada por
+\begin_inset Newline newline
+\end_inset
+
+mptrev
+\end_layout
+
+\begin_layout Section*
+Ficha Técnica
+\end_layout
+
+\begin_layout Standard
+\align center
+\begin_inset Float figure
+placement H
+wide false
+sideways false
+status open
+
+\begin_layout Plain Layout
+\align center
+\begin_inset Graphics
+	filename imagens/ficha-tecnica.jpg
+	width 100col%
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Plain Layout
+
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+\begin_inset Newpage pagebreak
+\end_inset
+
+
+\end_layout
+
+\begin_layout Section*
+Principais Componentes do Motor
+\end_layout
+
+\begin_layout Standard
+\align center
+\begin_inset Float figure
+placement H
+wide false
+sideways false
+status open
+
+\begin_layout Plain Layout
+\align center
+\begin_inset Graphics
+	filename imagens/componentes-do-motor.jpg
+	width 100col%
+
+\end_inset
+
+
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+\align center
+\begin_inset Float figure
+placement H
+wide false
+sideways false
+status open
+
+\begin_layout Plain Layout
+\align center
+\begin_inset Graphics
+	filename imagens/componentes-do-motor-2.jpg
+	width 100col%
+
+\end_inset
+
+
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Section
+Desmontagem dos Periféricos
+\end_layout
+
+\begin_layout Enumerate
+Comece removendo os periféricos, que são: coletor de admissão, coletor de
+ escape, transformador de ignição, e suporte da válvula termostática.
+\end_layout
+
+\begin_layout Enumerate
+Remova o coletor de escape desprendendo os oito parafusos.
+ Na montagem, use torque de 25 Nm e troque sempre a junta metálica.
+\begin_inset Float figure
+placement H
+wide false
+sideways false
+status collapsed
+
+\begin_layout Plain Layout
+\align center
+\begin_inset Graphics
+	filename imagens/coletor-de-escape.jpg
+	width 100col%
+
+\end_inset
+
+
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Enumerate
+Vamos soltar agora o coletor de admissão por meio dos seis parafusos allen
+ de 6 mm.
+ Torque de 20 Nm na montagem, além disso, substitua os quatro anéis de vedação.
+\begin_inset Float figure
+placement H
+wide false
+sideways false
+status open
+
+\begin_layout Plain Layout
+\align center
+\begin_inset Graphics
+	filename imagens/coletor-de-admissao.jpg
+	width 100col%
+
+\end_inset
+
+
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Enumerate
+Remova o suporte do separador de vapor de óleo do cárter com uma allen de
+ 5mm.
+ Substitua os anéis de vedação e verifique se não há entupimento nas galerias.
+\begin_inset Float figure
+placement H
+wide false
+sideways false
+status open
+
+\begin_layout Plain Layout
+\align center
+\begin_inset Graphics
+	filename imagens/separador-de-varpor-de-oleo.jpg
+	width 100col%
+
+\end_inset
+
+
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Enumerate
+Em seguida, tire o tubo distribuidor de combustível, soltando dois parafusos
+ allen de 5 mm.
+ O torque na montagem é de 10 Nm.
+ Cuidado com os anéis de vedação, se não forem substituídos podem gerar
+ problemas na combustão.
+\begin_inset Float figure
+placement H
+wide false
+sideways false
+status open
+
+\begin_layout Plain Layout
+\align center
+\begin_inset Graphics
+	filename imagens/tubo-distribuidor-de-combustivel.jpg
+	width 100col%
+
+\end_inset
+
+
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Enumerate
+Retire os cabos de vela, tomando cuidado para não puxar pelo cabo.
+ Não use alicate, pegue no supressor para remover.
+ Atenção na posição de montagem dos cabos, esse transformador manda duas
+ centelhas de uma vez, para os cilindros gêmeos 1-4 e 2-3, na ordem 1,3,4,2.
+ Se a ordem de ignição for alterada ocorrerá falhas de detonação, podendo,
+ inclusive, danificar os componentes.
+\begin_inset Float figure
+placement H
+wide false
+sideways false
+status open
+
+\begin_layout Plain Layout
+\align center
+\begin_inset Graphics
+	filename imagens/cabos-de-vela.jpg
+	width 100col%
+
+\end_inset
+
+
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Enumerate
+Com uma allen 5 mm, remova os três parafusos do transformador para soltar
+ a peça.
+ Na montagem, use torque de 10 Nm.
+ Verifique se não há trincas na parte de isolamento, para evitar fuga de
+ corrente.
+\begin_inset Float figure
+placement H
+wide false
+sideways false
+status open
+
+\begin_layout Plain Layout
+\align center
+\begin_inset Graphics
+	filename imagens/bobina.jpg
+	width 100col%
+
+\end_inset
+
+
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Enumerate
+Depois, é hora de tirar o suporte da válvula termostática.
+ Use uma chave L 10 mm para soltar os três parafusos.
+ Tire a trava atrás do tubo que leva água do suporte à bomba d’água.
+ Na montagem use torque de 10 Nm e substitua os anéis de vedação.
+\begin_inset Float figure
+placement H
+wide false
+sideways false
+status open
+
+\begin_layout Plain Layout
+\align center
+\begin_inset Graphics
+	filename imagens/valvula-termostatica.jpg
+	width 100col%
+
+\end_inset
+
+
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_deeper
+\begin_layout Standard
+
+\emph on
+Obs: Na hora da desmontagem, observe se o apoio do pino da válvula termostática,
+ que fica na tampa do alojamento, não está trincado, pois se esse apoio
+ estiver danificado pode ocasionar superaquecimento no motor.
+\emph default
+
+\begin_inset Float figure
+placement H
+wide false
+sideways false
+status open
+
+\begin_layout Plain Layout
+\align center
+\begin_inset Graphics
+	filename imagens/valvula-termostatica-pino.jpg
+	width 100col%
+
+\end_inset
+
+
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\end_deeper
+\begin_layout Section
+Sincronismo e Remoção da Correia Dentada
+\end_layout
+
+\begin_layout Enumerate
+Após a remoção dos periféricos, vamos partir para a desmontagem do motor,
+ começando pelo sistema de sincronismo.
+ Para isso, posicione os pistões de maneira que fiquem alinhados e evitem
+ o empenamento das válvulas.
+\end_layout
+
+\begin_layout Enumerate
+Remova a capa superior da correia e, com o auxílio de uma chave em L 10
+ mm, solte o parafuso central da capa inferior.
+\begin_inset Float figure
+placement H
+wide false
+sideways false
+status open
+
+\begin_layout Plain Layout
+\align center
+\begin_inset Graphics
+	filename imagens/capa-da-correia-dentada.jpg
+	width 100col%
+
+\end_inset
+
+
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Enumerate
+Agora, para tirar a capa inferior é necessário desencaixar a polia do virabrequi
+m antes, para isso use uma chave allen 6 mm e uma estrela 19 mm.
+ Na montagem, aplique o torque de 20 Nm.
+\begin_inset Float figure
+placement H
+wide false
+sideways false
+status open
+
+\begin_layout Plain Layout
+\align center
+\begin_inset Graphics
+	filename imagens/poila-do-virabrequim.jpg
+	width 100col%
+
+\end_inset
+
+
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_deeper
+\begin_layout Standard
+
+\emph on
+Obs.: A polia tem, além dos quatro orifícios dos parafusos, um quinto furo
+ que é o guia de montagem e que deve ser encaixado no pino presente na engrenage
+m do virabrequim.
+\emph default
+
+\begin_inset Float figure
+placement H
+wide false
+sideways false
+status open
+
+\begin_layout Plain Layout
+\align center
+\begin_inset Graphics
+	filename imagens/poila-do-virabrequim-furo-guia.jpg
+	width 100col%
+
+\end_inset
+
+
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\end_deeper
+\begin_layout Enumerate
+Remover os dois parafusos de fixação da capa inferior com uma chave sextavada.
+ Tire a capa.
+\begin_inset Float figure
+placement H
+wide false
+sideways false
+status open
+
+\begin_layout Plain Layout
+\align center
+\begin_inset Graphics
+	filename imagens/capa-inferior.jpg
+	width 100col%
+
+\end_inset
+
+
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Enumerate
+Coloque o motor no ponto de sincronismo, se orientando pelas referências.
+ Na polia da árvore do comando de válvulas existe um orifício que deve coincidir
+ com o guia presente na capa plástica posterior.
+\begin_inset Float figure
+placement H
+wide false
+sideways false
+status open
+
+\begin_layout Plain Layout
+\align center
+\begin_inset Graphics
+	filename imagens/ponto-de-sincronismo.jpg
+	width 100col%
+
+\end_inset
+
+
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Enumerate
+Na engrenagem da árvore de manivelas existe um dente que é levemente chanfrado.
+ Essa é a referência de sincronismo que deve ser alinhada com a marcação
+ presente na carcaça da bomba de óleo.
+ Porém, existem duas marcações na bomba de óleo – 2V e 4V (pois a bomba
+ serve para motores com 8 e 16 válvulas).
+ Coincida o dente chanfrado com a indicação 2V (duas válvulas por cilindro).
+\begin_inset Float figure
+placement H
+wide false
+sideways false
+status open
+
+\begin_layout Plain Layout
+\align center
+\begin_inset Graphics
+	filename imagens/ponto-de-sincronismo-referencia.jpg
+	width 100col%
+
+\end_inset
+
+
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Enumerate
+Com uma chave 19 mm, gire o parafuso de fixação da polia do virabrequim
+ até que ambas referências (do comando e do virabrequim) encontrem as marcas
+ de referência.
+ Se, durante o giro, o motor travar, não force, pois um pistão pode estar
+ batendo na válvula, podendo causar empenamento.
+ Assim que o furo da polia do comando coincidir com o ressalto na capa plástica
+ e o chanfro do dente da engrenagem do virabrequim coincidir com a referência
+ de 2V, o motor estará sincronizado.
+\begin_inset Float figure
+placement H
+wide false
+sideways false
+status open
+
+\begin_layout Plain Layout
+\align center
+\begin_inset Graphics
+	filename imagens/ponto-de-sincronismo-procedimento.jpg
+	width 100col%
+
+\end_inset
+
+
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_deeper
+\begin_layout Standard
+
+\series bold
+Importante: Sempre que girar o motor, faça-o em sentido horário (o mesmo
+ sentido que o motor trabalha) e pela fixação da árvore de manivelas, nunca
+ pelo comando de válvulas, para não danificar os componentes.
+\end_layout
+
+\end_deeper
+\begin_layout Enumerate
+Agora, remova o torque dos parafusos das polias de sincronismo do motor,
+ antes de remover a correia, para diminuir o risco de empenamento de válvulas.
+ Use a ferramenta especial para travar o volante e impedir a rotação do
+ motor.
+ Com a chave 19 mm, solte o aperto do parafuso de fixação da engrenagem
+ na árvore de manivelas.
+ Na montagem, aplique o torque de 90 Nm, seguido de 90o.
+ Substitua o parafuso a cada remoção.
+\begin_inset Float figure
+placement H
+wide false
+sideways false
+status open
+
+\begin_layout Plain Layout
+\align center
+\begin_inset Graphics
+	filename imagens/polia-de-sincronismo.jpg
+	width 100col%
+
+\end_inset
+
+
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Enumerate
+Use uma ferramenta especial para travar a polia da árvore do comando de
+ válvulas e, com uma chave soquete 16 mm, solte o aperto do parafuso.
+ Na montagem, aplique o torque de 20 Nm seguido de 90°.
+\begin_inset Float figure
+placement H
+wide false
+sideways false
+status open
+
+\begin_layout Plain Layout
+\align center
+\begin_inset Graphics
+	filename imagens/polia-da-arvore-do-comando-de-valvulas.jpg
+	width 100col%
+
+\end_inset
+
+
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Enumerate
+Em seguida, retire o suporte de alumínio dianteiro do coxim do motor, com
+ um soquete 16 mm.
+\begin_inset Float figure
+placement H
+wide false
+sideways false
+status open
+
+\begin_layout Plain Layout
+\align center
+\begin_inset Graphics
+	filename imagens/suporte-do-coxim.jpg
+	width 100col%
+
+\end_inset
+
+
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Enumerate
+Alivie a tensão do tensionador automático utilizando uma chave allen 6 mm.
+ Então, com uma chave 13 mm, solte o aperto do parafuso que fixa o tensionador.
+ A polia então fica solta para remover a correia.
+ Ao remover, preste atenção na posição da correia que, se for reaproveitada,
+ deve ser montada no mesmo sentido que já estava.
+ Uma dica para montar da mesma maneira é ver a posição de leitura das marcações
+ do fabricante no dorso da correia.
+\begin_inset Float figure
+placement H
+wide false
+sideways false
+status open
+
+\begin_layout Plain Layout
+\align center
+\begin_inset Graphics
+	filename imagens/tensionador.jpg
+	width 100col%
+
+\end_inset
+
+
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_deeper
+\begin_layout Standard
+
+\emph on
+Obs.: Na montagem, aplique a tensão corretamente na polia.
+ Para isso, a lingueta de aviso tem que coincidir com o rasgo presente no
+ suporte da polia tensionadora.
+\emph default
+
+\begin_inset Float figure
+placement H
+wide false
+sideways false
+status open
+
+\begin_layout Plain Layout
+\align center
+\begin_inset Graphics
+	filename imagens/tensionador-sentido-de-montagem.jpg
+	width 100col%
+
+\end_inset
+
+
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+Aplique o torque de 20 Nm no parafuso de fixação da polia e dê duas voltas
+ completas no motor, utilizando uma chave 19 mm no parafuso de fixação da
+ engrenagem do virabrequim.
+ Se a correia ficar frouxa, baterá na capa plástica e terá sua vida útil
+ prejudicada.
+ Se estiver apertada, a força de atrito será muito grande entre as polias
+ e a correia, diminuindo também a vida útil dos componentes.
+\end_layout
+
+\end_deeper
+\begin_layout Enumerate
+Agora remova completamente as polias, primeiro a do comando e depois a da
+ árvore de manivelas.
+\end_layout
+
+\begin_layout Enumerate
+Solte a capa de proteção posterior da correia, que fica encostada no bloco
+ e é fixada por meio de três parafusos allen 5 mm e dois allen 6 mm, que
+ também prendem a bomba d’água.
+\begin_inset Float figure
+placement H
+wide false
+sideways false
+status open
+
+\begin_layout Plain Layout
+\align center
+\begin_inset Graphics
+	filename imagens/capa-posterior-da-correia-dentada.jpg
+	width 100col%
+
+\end_inset
+
+
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Enumerate
+A bomba d’água pode ter rotor de plástico ou metálico.
+ Ao remover, verifique se o rotor não está solto do eixo.
+ Isso ocorre por causa de superaquecimento.
+ Antes da montagem, faça a substituição do anel de vedação.
+\begin_inset Float figure
+placement H
+wide false
+sideways false
+status open
+
+\begin_layout Plain Layout
+\align center
+\begin_inset Graphics
+	filename imagens/bomba-d-agua.jpg
+	width 100col%
+
+\end_inset
+
+
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Section
+Desmontagem da Parte Superior do Motor
+\end_layout
+
+\begin_layout Enumerate
+Agora vamos remover a parte superior do motor, ou seja, o cabeçote.
+ Cuidado com a tampa de válvulas, pois é integrada aos mancais de fixação
+ do comando.
+ Portanto, não solte os parafusos de qualquer jeito, pois poderá ocasionar
+ um empenamento na tampa e o cabeçote inteiro terá que ser substituído.
+\end_layout
+
+\begin_layout Enumerate
+Tire a tampa de abastecimento de óleo para poder soltar o parafuso que tem
+ dentro.
+ Remova também o sensor de fase.
+\begin_inset Float figure
+placement H
+wide false
+sideways false
+status open
+
+\begin_layout Plain Layout
+\align center
+\begin_inset Graphics
+	filename imagens/tampa-de-oleo-e-sendor-de-fase.jpg
+	width 100col%
+
+\end_inset
+
+
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Enumerate
+Acompanhe a sequência correta de desmontagem.
+ Primeiro quebre o torque depois tire os parafusos.
+\begin_inset Float figure
+placement H
+wide false
+sideways false
+status open
+
+\begin_layout Plain Layout
+\align center
+\begin_inset Graphics
+	filename imagens/tampa-de-valvulas-desmontagem.jpg
+	width 100col%
+
+\end_inset
+
+
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Enumerate
+Na montagem, o torque de aperto é de 6 Nm seguido de 90o e a sequência é
+ diferente da desmontagem.
+ Utilize apenas vedantes químicos e aguarde, no mínimo, 30 minutos para
+ que o vedante reaja, evitando vazamentos posteriores.
+\begin_inset Float figure
+placement H
+wide false
+sideways false
+status open
+
+\begin_layout Plain Layout
+\align center
+\begin_inset Graphics
+	filename imagens/tampa-de-valvula-montagem.jpg
+	width 100col%
+
+\end_inset
+
+
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Enumerate
+Retire a árvore de comando de válvulas.
+ O local que se elimina a folga axial é no terceiro mancal.
+\begin_inset Float figure
+placement H
+wide false
+sideways false
+status open
+
+\begin_layout Plain Layout
+\align center
+\begin_inset Graphics
+	filename imagens/arvore-do-comando-de-valvulas-folga.jpg
+	width 100col%
+
+\end_inset
+
+
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Enumerate
+Remova os balancins roletados e os tuchos.
+ O balancim roletado diminui o atrito entre o comando e o tucho, aumentando
+ a vida útil do motor.
+ Tome cuidado na instalação do balancim, coloque-o bem centralizado no tucho
+ e no pé da válvula.
+ Se o balancim ficar fora de posição, danificará os componentes do cabeçote
+ quando o motor funcionar.
+\begin_inset Float figure
+placement H
+wide false
+sideways false
+status open
+
+\begin_layout Plain Layout
+\align center
+\begin_inset Graphics
+	filename imagens/balancins.jpg
+	width 100col%
+
+\end_inset
+
+
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_deeper
+\begin_layout Standard
+
+\series bold
+Dica: quando remover o tucho hidráulico do cabeçote, verifique se o componente
+ está segurando a carga de óleo de maneira adequada.
+ Para isso, com o tucho na posição de trabalho, pressione o componente,
+ que não pode ceder.
+ Se a peça ceder à pressão é porque está muito tempo sem ser carregado ou
+ está danificado.
+\series default
+
+\begin_inset Float figure
+placement H
+wide false
+sideways false
+status open
+
+\begin_layout Plain Layout
+\align center
+\begin_inset Graphics
+	filename imagens/tuchos.jpg
+	width 100col%
+
+\end_inset
+
+
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\end_deeper
+\begin_layout Enumerate
+Antes de remover o cabeçote, para facilitar, retire os suportes de içamento
+ do motor.
+\begin_inset Float figure
+placement H
+wide false
+sideways false
+status open
+
+\begin_layout Plain Layout
+\align center
+\begin_inset Graphics
+	filename imagens/suportes-de-icamento-do-motor.jpg
+	width 100col%
+
+\end_inset
+
+
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Enumerate
+Em seguida, com auxílio da ferramenta para soltar os parafusos de fixação
+ do cabeçote, solte os parafusos de fora para dentro, para evitar empenamento
+ do cabeçote.
+ Na montagem, a sequência de aperto é de dentro para fora, com torque de
+ 30 Nm seguido de 180°.
+\begin_inset Float figure
+placement H
+wide false
+sideways false
+status open
+
+\begin_layout Plain Layout
+\align center
+\begin_inset Graphics
+	filename imagens/cabecote.jpg
+	width 100col%
+
+\end_inset
+
+
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_deeper
+\begin_layout Standard
+
+\emph on
+Obs: sempre que remover o cabeçote, é mandatório substituir os parafusos
+ do cabeçote e da tampa de válvulas.
+ Se colocar o mesmo parafuso, ele pode quebrar.
+ A sequência de aperto na montagem é inversa a da remoção, ou seja, do centro
+ para fora.
+\end_layout
+
+\end_deeper
+\begin_layout Enumerate
+Retire o cabeçote com cuidado para evitar danos na superfície de assentamento.
+ Agora, faça as medições para ver se a peça não está empenada, use uma régua
+ plana, devidamente aferida e o calibre de lâminas.
+ O valor não pode ultrapassar 0,05 mm.
+\begin_inset Float figure
+placement H
+wide false
+sideways false
+status open
+
+\begin_layout Plain Layout
+\align center
+\begin_inset Graphics
+	filename imagens/cabecote-afericao.jpg
+	width 100col%
+
+\end_inset
+
+
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Enumerate
+Com ajuda do paquímetro, meça a altura do cabeçote, que não pode estar abaixo
+ de 135,6 mm.
+ Se estiver fora, faça a substituição do cabeçote.
+\begin_inset Float figure
+placement H
+wide false
+sideways false
+status open
+
+\begin_layout Plain Layout
+\align center
+\begin_inset Graphics
+	filename imagens/cabecote-altura.jpg
+	width 100col%
+
+\end_inset
+
+
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Enumerate
+Retire a junta metálica com revestimento especial.
+ Verifique a peça para ver se tem anormalidades que possam ajudar num diagnóstic
+o de falhas.
+ Não esqueça e trocar por uma nova na montagem.
+\begin_inset Float figure
+placement H
+wide false
+sideways false
+status open
+
+\begin_layout Plain Layout
+\align center
+\begin_inset Graphics
+	filename imagens/junta-metalica.jpg
+	width 100col%
+
+\end_inset
+
+
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Section
+Parte Inferior do Motor
+\end_layout
+
+\begin_layout Enumerate
+Remova os itens inferiores do bloco do motor, começando pela tampa do cárter.
+ Remova os parafusos sextavados de 10 mm.
+ Não é necessário fazer uma sequencia especifica, mas é sempre bom tirar
+ os parafusos na sequência cruzada.
+ Na montagem, aplique o torque também de maneira cruzada, com o valor de
+ 10 Nm seguido de 90°.
+ 
+\begin_inset Float figure
+placement H
+wide false
+sideways false
+status open
+
+\begin_layout Plain Layout
+\align center
+\begin_inset Graphics
+	filename imagens/tampa-do-carter.jpg
+	width 100col%
+
+\end_inset
+
+
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Enumerate
+Com uma espátula plástica (não use chave de fenda ou outra ferramenta metálica),
+ remova o resíduo do vedante químico da tampa e da face do cárter.
+ Peças metálicas podem causar ranhuras na peça, provocando má vedação e
+ vazamentos.
+\begin_inset Float figure
+placement H
+wide false
+sideways false
+status open
+
+\begin_layout Plain Layout
+\align center
+\begin_inset Graphics
+	filename imagens/remocao-de-residuo-do-vedante.jpg
+	width 100col%
+
+\end_inset
+
+
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Enumerate
+Com uma chave L de 10 mm remova os parafusos que prendem o tubo de sucção
+ de óleo.
+ Observe se a peneira está obstruída ou danificada, o que requer a substituição
+ do tubo.
+ Na montagem, troque a junta e aperte os parafusos com torque de 10 Nm.
+\begin_inset Float figure
+placement H
+wide false
+sideways false
+status open
+
+\begin_layout Plain Layout
+\align center
+\begin_inset Graphics
+	filename imagens/pescador-fixacao.jpg
+	width 100col%
+
+\end_inset
+
+
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Enumerate
+Em seguida, desaperte os 20 parafusos allen de 5 mm para abrir o sub-cárter.
+ Também não requer sequência de desaperto e aperto, mas é recomendável soltar
+ de forma cruzada.
+ Faça a raspagem dos resíduos da junta líquida com uma espátula de plástico.
+ Aplique torque de 10 Nm seguido de 90o na montagem, juntamente com o novo
+ vedante químico.
+\begin_inset Float figure
+placement H
+wide false
+sideways false
+status open
+
+\begin_layout Plain Layout
+\align center
+\begin_inset Graphics
+	filename imagens/sub-carter.jpg
+	width 100col%
+
+\end_inset
+
+
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Enumerate
+Para remover a capa da biela, que é do tipo fraturada, use uma chave 10
+ mm e retire os dois parafusos que fixam a capa no corpo da biela.
+ Durante a desmontagem, analise os componentes com muita atenção, pois é
+ o momento certo para se localizar um possível defeito no motor.
+ Por isso, com um pano que não solte fiapos, limpe os casquilhos e veja
+ se não já irregularidades ou riscos.
+ Na montagem da capa na biela, aplique o torque de 30 Nm seguido de 90o.
+ Sempre substitua os parafusos por novos quando for montar as peças.
+\begin_inset Float figure
+placement H
+wide false
+sideways false
+status open
+
+\begin_layout Plain Layout
+\align center
+\begin_inset Graphics
+	filename imagens/capa-da-biela.jpg
+	width 100col%
+
+\end_inset
+
+
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Enumerate
+Empurre o conjunto biela e pistão com a mão e depois com um pedaço de madeira,
+ aplicando leves pancadas até sair por baixo.
+ Apoie com a mão para evitar que as peças caiam e sofram deformações.
+\begin_inset Float figure
+placement H
+wide false
+sideways false
+status open
+
+\begin_layout Plain Layout
+\align center
+\begin_inset Graphics
+	filename imagens/pistao.jpg
+	width 100col%
+
+\end_inset
+
+
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_deeper
+\begin_layout Standard
+
+\emph on
+Obs.: sempre que remover a capa da biela e retirar os componentes do cilindro,
+ mantenha o conjunto montado para evitar troca entre as bielas e as capas.
+ Ao montar o conjunto de volta no motor, coloque-o no mesmo cilindro em
+ que estava para evitar desgastes prematuros.
+ Bielas fraturadas permitem apenas uma posição de encaixe.
+ Se houver folga entre as peças, a montagem está errada.
+\end_layout
+
+\begin_layout Standard
+A montagem dos anéis no pistão deve respeitar a defasagem de 120° entre
+ as pontas.
+ Isso evita problemas de compressão e de lubrificação na parede do cilindro
+ do motor.
+\end_layout
+
+\end_deeper
+\end_body
+\end_document

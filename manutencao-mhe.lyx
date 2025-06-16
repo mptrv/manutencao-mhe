@@ -583,6 +583,96 @@ Inspecionar.
 
 \end_layout
 
+\begin_layout Standard
+\begin_inset Newpage pagebreak
+\end_inset
+
+
+\end_layout
+
+\begin_layout Section
+Possíveis Locais de Vazamento de Óleo
+\end_layout
+
+\begin_layout Subsection*
+Vazamentos externos ao motor
+\end_layout
+
+\begin_layout Enumerate
+Tampa de óleo
+\end_layout
+
+\begin_layout Enumerate
+Retentor do comando de válvula
+\end_layout
+
+\begin_layout Enumerate
+Vedação da válvula
+\end_layout
+
+\begin_layout Enumerate
+Anéis dos pistões
+\end_layout
+
+\begin_layout Enumerate
+Antichama
+\end_layout
+
+\begin_layout Enumerate
+Filtro do óleo
+\end_layout
+
+\begin_layout Enumerate
+Tampa da válvula
+\end_layout
+
+\begin_layout Enumerate
+Junta do cabeçote
+\end_layout
+
+\begin_layout Enumerate
+Junta do cárter
+\end_layout
+
+\begin_layout Enumerate
+Parafuso do cárter
+\end_layout
+
+\begin_layout Enumerate
+Retentor da árvore de manivelas (atrás do volante do motor)
+\end_layout
+
+\begin_layout Enumerate
+Retentor da árvore de transmissão
+\end_layout
+
+\begin_layout Subsection*
+\begin_inset Quotes eld
+\end_inset
+
+Vazamentos
+\begin_inset Quotes erd
+\end_inset
+
+ internos ao motor (implicando em perda de pressão)
+\end_layout
+
+\begin_layout Enumerate
+Eixo ou mancais do comando de válvulas com sulcos
+\end_layout
+
+\begin_layout Enumerate
+Bronzinas da árvore de manivelas com sulcos
+\end_layout
+
+\begin_layout Enumerate
+Pescador obstruído
+\end_layout
+
+\begin_layout Enumerate
+Junta de vedação do pescador (em seu ponto de fixação)
+\end_layout
+
 \begin_layout Chapter
 Fiat Pálio ED 1997
 \end_layout
